@@ -1,0 +1,4 @@
+name = "kecthup"  
+compatibility_date = "2025-08-17"
+pages_build_output_dir = "portfolio/build"
+
