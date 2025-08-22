@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Personal portfolio</h1>
 
-[![Site preview](/public/image copy.png)](https://portfolio-e21.pages.dev/)
+[![Site preview](/public/image.png)](https://portfolio-e21.pages.dev/)
 
 My design portfolio to showcase a few projects. Built with [Remix](https://remix.run/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://portfolio-e21.pages.dev/).
 
