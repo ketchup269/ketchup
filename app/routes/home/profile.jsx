@@ -23,7 +23,7 @@ const ProfileText = ({ visible, titleId }) => (
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I’m KAJAL, currently pursuing B.Tech in Electronics and Communication Engineering. {' '}
        I’m a newbie but passionate about building real-world projects and continuously improving my technical skills. My goal is to craft impactful, efficient, and user-friendly solutions that make a difference.
-      You can check out my work on <Link href="githuhttps://github.com/ketchup269">GitHub</Link>. 
+      You can check out my work on <Link href="https://github.com/ketchup269">GitHub</Link>. 
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
     Outside of coding, I enjoy watching anime, travelling, solving puzzles and brain teasers, and music. I also like reading about personal growth and staying curious about how things work.

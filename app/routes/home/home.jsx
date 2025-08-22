@@ -41,7 +41,7 @@ export const links = () => {
 
 export const meta = () => {
   return baseMeta({
-    title: 'Designer w Developer',
+    title: 'Developer',
     description: `Design portfolio of ${config.name} — a product designer working on web & mobile apps with a focus on motion, experience design, and accessibility.`,
   });
 };
@@ -125,8 +125,8 @@ export const Home = () => {
         index={2}
         title="CCM - College Complaint Management"
         description="A web application for students to raise complaints and track their resolution"
-        buttonText="Ongoing..."
-        buttonLink=""
+        buttonText="Ongoing.."
+        buttonLink="https://github.com/ketchup269"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
