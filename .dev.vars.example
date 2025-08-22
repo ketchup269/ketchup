@@ -1,8 +1,0 @@
-# Rename this file from .dev.vars.example to .dev.vars and paste in your credentials
-
-ENVIRONMENT=development
-
-# The email address to send emails to
-RESEND_API_KEY=re_28Gdi8Bj_4Zd3eobJheZtvMa3fTYEX1yK
-EMAIL=kajup269@gmail.com
-FROM_EMAIL=kjlgupta2693@gmail.com
