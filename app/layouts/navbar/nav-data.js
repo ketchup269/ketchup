@@ -26,9 +26,9 @@ export const socialLinks = [
     icon: 'bluesky',
   },
   {
-    label: 'Figma',
-    url: `https://www.figma.com/${config.figma}`,
-    icon: 'figma',
+    label: 'Leetcode',
+    url: `https://leetcode.com/u/Kethup/`,
+    icon: 'leetcode',
   },
   {
     label: 'Github',

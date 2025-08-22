@@ -7,9 +7,9 @@ import gamestackTexture from '~/assets/gamestack-list.jpg';
 import sliceTextureLarge from '~/assets/image.png';
 import sliceTexturePlaceholder from '~/assets/slice-app-placeholder.jpg';
 import sliceTexture from '~/assets/image.png';
-import sprTextureLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
+import sprTextureLarge from '~/assets/gamestack-list-large.png';
 import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from '~/assets/spr-lesson-builder-dark.jpg';
+import sprTexture from '~/assets/gamestack-list-large.png';
 import { Footer } from '~/components/footer';
 import { baseMeta } from '~/utils/meta';
 import { Intro } from './intro';
@@ -41,7 +41,7 @@ export const links = () => {
 
 export const meta = () => {
   return baseMeta({
-    title: 'Designer + Developer',
+    title: 'Designer w Developer',
     description: `Design portfolio of ${config.name} — a product designer working on web & mobile apps with a focus on motion, experience design, and accessibility.`,
   });
 };
@@ -120,38 +120,13 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-2"
-        alternate
-        sectionRef={projectTwo}
-        visible={visibleSections.includes(projectTwo.current)}
-        index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
-        model={{
-          type: 'phone',
-          alt: 'App login screen',
-          textures: [
-            {
-              srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
-              placeholder: gamestackTexturePlaceholder,
-            },
-            {
-              srcSet: `${gamestackTexture2} 375w, ${gamestackTexture2Large} 750w`,
-              placeholder: gamestackTexture2Placeholder,
-            },
-          ],
-        }}
-      />
-      <ProjectSummary
-        id="project-3"
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
-        index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
-        buttonLink="/projects/slice"
+        index={2}
+        title="CCM - College Complaint Management"
+        description="A web application for students to raise complaints and track their resolution"
+        buttonText="Ongoing..."
+        buttonLink=""
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
@@ -163,6 +138,31 @@ export const Home = () => {
           ],
         }}
       />
+        <ProjectSummary
+          id="project-3"
+          alternate
+          sectionRef={projectTwo}
+          visible={visibleSections.includes(projectTwo.current)}
+          index={3}
+          title="Flappy-bird"
+          description="Basic flappy-bird game built using java for conceptual understanding of game development"
+          buttonText="View code"
+          buttonLink="https://github.com/ketchup269/flappy-bird-java"
+          model={{
+            type: 'phone',
+            alt: 'App login screen',
+            textures: [
+              {
+                srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
+                placeholder: gamestackTexturePlaceholder,
+              },
+              {
+                srcSet: `${gamestackTexture2} 375w, ${gamestackTexture2Large} 750w`,
+                placeholder: gamestackTexture2Placeholder,
+              },
+            ],
+          }}
+        />
       <Profile
         sectionRef={details}
         visible={visibleSections.includes(details.current)}

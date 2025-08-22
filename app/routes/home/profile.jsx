@@ -21,16 +21,13 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m KAJAL, currently pursuing B.Tech in Electronics and Communication Engineering. {' '}
+       I’m a newbie but passionate about building real-world projects and continuously improving my technical skills. My goal is to craft impactful, efficient, and user-friendly solutions that make a difference.
+      You can check out my work on <Link href="githuhttps://github.com/ketchup269">GitHub</Link>. 
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+    Outside of coding, I enjoy watching anime, travelling, solving puzzles and brain teasers, and music. I also like reading about personal growth and staying curious about how things work.
+    I love spending time learning about front-end styling, and occasionally sketching ideas on paper before bringing them to life digitally. 
     </Text>
   </Fragment>
 );
